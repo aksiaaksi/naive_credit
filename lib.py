@@ -18,7 +18,7 @@ def is_creditable(age,salary):
     max_age = 60
     min_salary = 30_000
 
-    if age >= min_age and age <=max_age and  salary >=min_salary:
+    if min_age <= age  <=max_age and  salary >=min_salary:
         return True
     else:
         return False # True - истина, False - ложь
